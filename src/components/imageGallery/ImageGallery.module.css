@@ -1,0 +1,18 @@
+.imageList {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 60px 15px 15px 15px;
+}
+
+.imageListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(25% - 10px);
+  height: 180px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgb(213, 204, 204);
+}
