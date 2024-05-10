@@ -59,6 +59,11 @@ const App: React.FC = () => {
     setShowModal(true);
     setSelectedImgUrl(imageUrl);
   };
+
+  // const openModal: ShowModalFunction = (imageUrl: string): void => {
+  //   setShowModal(true);
+  //   setSelectedImgUrl(imageUrl);
+  // };
   const closeModal = (): void => {
     setShowModal(false);
     setSelectedImgUrl(null);

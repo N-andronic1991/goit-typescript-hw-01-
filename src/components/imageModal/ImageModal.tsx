@@ -16,9 +16,6 @@ const ImageModal: React.FC<ImageModalProps> = ({
     content: {
       width: '60%',
       height: '80vh',
-      // display: 'flex',
-      // justifyContent: 'center',
-      // alignItems: 'center',
       top: '50%',
       left: '50%',
       transform: 'translate(-50%, -50%)',
